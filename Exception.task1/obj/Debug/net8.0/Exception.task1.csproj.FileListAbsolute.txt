@@ -1,0 +1,14 @@
+D:\razdel c\Desktop\Exception\Exception.task1\bin\Debug\net8.0\Exception.task1.exe
+D:\razdel c\Desktop\Exception\Exception.task1\bin\Debug\net8.0\Exception.task1.deps.json
+D:\razdel c\Desktop\Exception\Exception.task1\bin\Debug\net8.0\Exception.task1.runtimeconfig.json
+D:\razdel c\Desktop\Exception\Exception.task1\bin\Debug\net8.0\Exception.task1.dll
+D:\razdel c\Desktop\Exception\Exception.task1\bin\Debug\net8.0\Exception.task1.pdb
+D:\razdel c\Desktop\Exception\Exception.task1\obj\Debug\net8.0\Exception.task1.GeneratedMSBuildEditorConfig.editorconfig
+D:\razdel c\Desktop\Exception\Exception.task1\obj\Debug\net8.0\Exception.task1.AssemblyInfoInputs.cache
+D:\razdel c\Desktop\Exception\Exception.task1\obj\Debug\net8.0\Exception.task1.AssemblyInfo.cs
+D:\razdel c\Desktop\Exception\Exception.task1\obj\Debug\net8.0\Exception.task1.csproj.CoreCompileInputs.cache
+D:\razdel c\Desktop\Exception\Exception.task1\obj\Debug\net8.0\Exception.task1.dll
+D:\razdel c\Desktop\Exception\Exception.task1\obj\Debug\net8.0\refint\Exception.task1.dll
+D:\razdel c\Desktop\Exception\Exception.task1\obj\Debug\net8.0\Exception.task1.pdb
+D:\razdel c\Desktop\Exception\Exception.task1\obj\Debug\net8.0\Exception.task1.genruntimeconfig.cache
+D:\razdel c\Desktop\Exception\Exception.task1\obj\Debug\net8.0\ref\Exception.task1.dll
