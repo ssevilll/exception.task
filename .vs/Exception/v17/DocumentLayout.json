@@ -3,24 +3,16 @@
   "WorkspaceRootPath": "D:\\razdel c\\Desktop\\Exception\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{DC69EFCB-3E7F-409E-87B9-CF3E61B0EE31}|Exception.task1\\Exception.task1.csproj|d:\\razdel c\\desktop\\exception\\exception.task1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DC69EFCB-3E7F-409E-87B9-CF3E61B0EE31}|Exception.task1\\Exception.task1.csproj|solutionrelative:exception.task1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{60C06361-14B1-4D2E-87ED-41E4551E4262}|Exception.Task2\\Exception.Task2.csproj|d:\\razdel c\\desktop\\exception\\exception.task2\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{60C06361-14B1-4D2E-87ED-41E4551E4262}|Exception.Task2\\Exception.Task2.csproj|solutionrelative:exception.task2\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{DC69EFCB-3E7F-409E-87B9-CF3E61B0EE31}|Exception.task1\\Exception.task1.csproj|d:\\razdel c\\desktop\\exception\\exception.task1\\currencies\\manat.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DC69EFCB-3E7F-409E-87B9-CF3E61B0EE31}|Exception.task1\\Exception.task1.csproj|solutionrelative:exception.task1\\currencies\\manat.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{60C06361-14B1-4D2E-87ED-41E4551E4262}|Exception.Task2\\Exception.Task2.csproj|d:\\razdel c\\desktop\\exception\\exception.task2\\model\\kelvin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{60C06361-14B1-4D2E-87ED-41E4551E4262}|Exception.Task2\\Exception.Task2.csproj|solutionrelative:exception.task2\\model\\kelvin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{DC69EFCB-3E7F-409E-87B9-CF3E61B0EE31}|Exception.task1\\Exception.task1.csproj|d:\\razdel c\\desktop\\exception\\exception.task1\\currencies\\lira.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DC69EFCB-3E7F-409E-87B9-CF3E61B0EE31}|Exception.task1\\Exception.task1.csproj|solutionrelative:exception.task1\\currencies\\lira.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{DC69EFCB-3E7F-409E-87B9-CF3E61B0EE31}|Exception.task1\\Exception.task1.csproj|d:\\razdel c\\desktop\\exception\\exception.task1\\currencies\\euro.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DC69EFCB-3E7F-409E-87B9-CF3E61B0EE31}|Exception.task1\\Exception.task1.csproj|solutionrelative:exception.task1\\currencies\\euro.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{DC69EFCB-3E7F-409E-87B9-CF3E61B0EE31}|Exception.task1\\Exception.task1.csproj|d:\\razdel c\\desktop\\exception\\exception.task1\\currencies\\dollar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DC69EFCB-3E7F-409E-87B9-CF3E61B0EE31}|Exception.task1\\Exception.task1.csproj|solutionrelative:exception.task1\\currencies\\dollar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{60C06361-14B1-4D2E-87ED-41E4551E4262}|Exception.Task2\\Exception.Task2.csproj|d:\\razdel c\\desktop\\exception\\exception.task2\\model\\celsius.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{60C06361-14B1-4D2E-87ED-41E4551E4262}|Exception.Task2\\Exception.Task2.csproj|solutionrelative:exception.task2\\model\\celsius.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -30,71 +22,45 @@
       "DocumentGroups": [
         {
           "DockedWidth": 116,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\razdel c\\Desktop\\Exception\\Exception.Task2\\Program.cs",
+              "RelativeDocumentMoniker": "Exception.Task2\\Program.cs",
+              "ToolTip": "D:\\razdel c\\Desktop\\Exception\\Exception.Task2\\Program.cs",
+              "RelativeToolTip": "Exception.Task2\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-06T14:56:44.726Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "Lira.cs",
-              "DocumentMoniker": "D:\\razdel c\\Desktop\\Exception\\Exception.task1\\Currencies\\Lira.cs",
-              "RelativeDocumentMoniker": "Exception.task1\\Currencies\\Lira.cs",
-              "ToolTip": "D:\\razdel c\\Desktop\\Exception\\Exception.task1\\Currencies\\Lira.cs",
-              "RelativeToolTip": "Exception.task1\\Currencies\\Lira.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAXAAAAAAAAAA==",
+              "Title": "Celsius.cs",
+              "DocumentMoniker": "D:\\razdel c\\Desktop\\Exception\\Exception.Task2\\Model\\Celsius.cs",
+              "RelativeDocumentMoniker": "Exception.Task2\\Model\\Celsius.cs",
+              "ToolTip": "D:\\razdel c\\Desktop\\Exception\\Exception.Task2\\Model\\Celsius.cs",
+              "RelativeToolTip": "Exception.Task2\\Model\\Celsius.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-05T15:54:38.58Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Euro.cs",
-              "DocumentMoniker": "D:\\razdel c\\Desktop\\Exception\\Exception.task1\\Currencies\\Euro.cs",
-              "RelativeDocumentMoniker": "Exception.task1\\Currencies\\Euro.cs",
-              "ToolTip": "D:\\razdel c\\Desktop\\Exception\\Exception.task1\\Currencies\\Euro.cs",
-              "RelativeToolTip": "Exception.task1\\Currencies\\Euro.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-05T15:54:09.803Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Dollar.cs",
-              "DocumentMoniker": "D:\\razdel c\\Desktop\\Exception\\Exception.task1\\Currencies\\Dollar.cs",
-              "RelativeDocumentMoniker": "Exception.task1\\Currencies\\Dollar.cs",
-              "ToolTip": "D:\\razdel c\\Desktop\\Exception\\Exception.task1\\Currencies\\Dollar.cs",
-              "RelativeToolTip": "Exception.task1\\Currencies\\Dollar.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-05T15:46:31.406Z",
+              "WhenOpened": "2025-11-06T14:57:13.041Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "Manat.cs",
-              "DocumentMoniker": "D:\\razdel c\\Desktop\\Exception\\Exception.task1\\Currencies\\Manat.cs",
-              "RelativeDocumentMoniker": "Exception.task1\\Currencies\\Manat.cs",
-              "ToolTip": "D:\\razdel c\\Desktop\\Exception\\Exception.task1\\Currencies\\Manat.cs",
-              "RelativeToolTip": "Exception.task1\\Currencies\\Manat.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAuAAAAAAAAAA==",
+              "Title": "Kelvin.cs",
+              "DocumentMoniker": "D:\\razdel c\\Desktop\\Exception\\Exception.Task2\\Model\\Kelvin.cs",
+              "RelativeDocumentMoniker": "Exception.Task2\\Model\\Kelvin.cs",
+              "ToolTip": "D:\\razdel c\\Desktop\\Exception\\Exception.Task2\\Model\\Kelvin.cs",
+              "RelativeToolTip": "Exception.Task2\\Model\\Kelvin.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-05T15:44:43.994Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Program.cs",
-              "DocumentMoniker": "D:\\razdel c\\Desktop\\Exception\\Exception.task1\\Program.cs",
-              "RelativeDocumentMoniker": "Exception.task1\\Program.cs",
-              "ToolTip": "D:\\razdel c\\Desktop\\Exception\\Exception.task1\\Program.cs",
-              "RelativeToolTip": "Exception.task1\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAAlAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-05T15:30:06.388Z",
+              "WhenOpened": "2025-11-06T14:56:59.833Z",
               "EditorCaption": ""
             }
           ]
