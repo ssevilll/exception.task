@@ -29,10 +29,9 @@ namespace Exception.Task3
                         }
                         catch (ArgumentException ex)
                         {
-                            running = false;
                             Console.WriteLine($"Invalid input: {ex.Message}");
                         }
-                        catch (System.Exception ex) 
+                        catch (Exception ex) 
                         {
                             Console.WriteLine($"Unexpected error: {ex.Message}");
                         }

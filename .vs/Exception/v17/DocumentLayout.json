@@ -3,8 +3,8 @@
   "WorkspaceRootPath": "D:\\razdel c\\Desktop\\Exception\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{06630749-8292-473F-961C-FB4EC8245E6E}|Exception.Task3\\Exception.Task3.csproj|d:\\razdel c\\desktop\\exception\\exception.task3\\model\\rectangular.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{06630749-8292-473F-961C-FB4EC8245E6E}|Exception.Task3\\Exception.Task3.csproj|solutionrelative:exception.task3\\model\\rectangular.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{06630749-8292-473F-961C-FB4EC8245E6E}|Exception.Task3\\Exception.Task3.csproj|d:\\razdel c\\desktop\\exception\\exception.task3\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{06630749-8292-473F-961C-FB4EC8245E6E}|Exception.Task3\\Exception.Task3.csproj|solutionrelative:exception.task3\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{06630749-8292-473F-961C-FB4EC8245E6E}|Exception.Task3\\Exception.Task3.csproj|d:\\razdel c\\desktop\\exception\\exception.task3\\model\\square.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -15,8 +15,8 @@
       "RelativeMoniker": "D:0:0:{06630749-8292-473F-961C-FB4EC8245E6E}|Exception.Task3\\Exception.Task3.csproj|solutionrelative:exception.task3\\model\\figure.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{06630749-8292-473F-961C-FB4EC8245E6E}|Exception.Task3\\Exception.Task3.csproj|d:\\razdel c\\desktop\\exception\\exception.task3\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{06630749-8292-473F-961C-FB4EC8245E6E}|Exception.Task3\\Exception.Task3.csproj|solutionrelative:exception.task3\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{06630749-8292-473F-961C-FB4EC8245E6E}|Exception.Task3\\Exception.Task3.csproj|d:\\razdel c\\desktop\\exception\\exception.task3\\model\\rectangular.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{06630749-8292-473F-961C-FB4EC8245E6E}|Exception.Task3\\Exception.Task3.csproj|solutionrelative:exception.task3\\model\\rectangular.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -26,17 +26,17 @@
       "DocumentGroups": [
         {
           "DockedWidth": 116,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 3,
               "Title": "Rectangular.cs",
               "DocumentMoniker": "D:\\razdel c\\Desktop\\Exception\\Exception.Task3\\Model\\Rectangular.cs",
               "RelativeDocumentMoniker": "Exception.Task3\\Model\\Rectangular.cs",
               "ToolTip": "D:\\razdel c\\Desktop\\Exception\\Exception.Task3\\Model\\Rectangular.cs",
               "RelativeToolTip": "Exception.Task3\\Model\\Rectangular.cs",
-              "ViewState": "AgIAAAgAAAAAAAAAAAAqwCoAAAAJAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACoAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-11-06T15:13:42.665Z",
               "EditorCaption": ""
@@ -69,13 +69,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 0,
               "Title": "Program.cs",
               "DocumentMoniker": "D:\\razdel c\\Desktop\\Exception\\Exception.Task3\\Program.cs",
               "RelativeDocumentMoniker": "Exception.Task3\\Program.cs",
               "ToolTip": "D:\\razdel c\\Desktop\\Exception\\Exception.Task3\\Program.cs",
               "RelativeToolTip": "Exception.Task3\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAABAAAAAAAAAAAAAQwB8AAAAsAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-11-06T15:09:29.368Z",
               "EditorCaption": ""

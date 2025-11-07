@@ -12,3 +12,4 @@ D:\razdel c\Desktop\Exception\Exception.task1\obj\Debug\net8.0\refint\Exception.
 D:\razdel c\Desktop\Exception\Exception.task1\obj\Debug\net8.0\Exception.task1.pdb
 D:\razdel c\Desktop\Exception\Exception.task1\obj\Debug\net8.0\Exception.task1.genruntimeconfig.cache
 D:\razdel c\Desktop\Exception\Exception.task1\obj\Debug\net8.0\ref\Exception.task1.dll
+D:\razdel c\Desktop\Exception\Exception.task1\obj\Debug\net8.0\Exception.task1.sourcelink.json
