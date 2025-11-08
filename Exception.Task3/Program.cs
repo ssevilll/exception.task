@@ -39,9 +39,26 @@ namespace Exception.Task3
                         break;
                         
                     case 2:
-                        Console.WriteLine("Rectangle functionality not implemented yet.");
+                        try
+                        {
+                            Console.WriteLine("Enter the length of the rectangle:");
+                            double length = Convert.ToDouble(Console.ReadLine());
+                            Console.WriteLine("Enter the width of the rectangle:");
+                            double width = Convert.ToDouble(Console.ReadLine());
+                            Rectangular rectangle = new Rectangular(length, width);
+                            Console.WriteLine($"The area of the rectangle is: {rectangle.CalculateArea()}");
+                        }
+                        catch (ArgumentException ex)
+                        {
+                            running = false;
+                            Console.WriteLine($"Invalid input: {ex.Message}");
+                        }
+                        catch (System.Exception ex)
+                        {
+                            Console.WriteLine($"Unexpected error: {ex.Message}");
+                        }
                         break;
-                        
+
                     case 0:
                         running = false;
                         Console.WriteLine("Goodbye!");
