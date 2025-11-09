@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Exception.task1")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+080f1c359f17490203af0f12392f59041137fbd8")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+b86bd4d9afb992fe3da7378c875318468023a75f")]
 [assembly: System.Reflection.AssemblyProductAttribute("Exception.task1")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Exception.task1")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
