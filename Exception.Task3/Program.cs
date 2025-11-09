@@ -34,6 +34,7 @@ namespace Exception.Task3
                         }
                         catch (System.Exception ex) 
                         {
+                            running = false;
                             Console.WriteLine($"Unexpected error: {ex.Message}");
                         }
                         break;
@@ -55,6 +56,7 @@ namespace Exception.Task3
                         }
                         catch (System.Exception ex)
                         {
+                            running = false;
                             Console.WriteLine($"Unexpected error: {ex.Message}");
                         }
                         break;
