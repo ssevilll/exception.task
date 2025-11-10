@@ -3,6 +3,10 @@
   "WorkspaceRootPath": "D:\\razdel c\\Desktop\\Exception\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{80FB903E-5ED5-4A66-90FA-97F59C257729}|Exception.Task4\\Exception.Task4.csproj|d:\\razdel c\\desktop\\exception\\exception.task4\\model\\student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{80FB903E-5ED5-4A66-90FA-97F59C257729}|Exception.Task4\\Exception.Task4.csproj|solutionrelative:exception.task4\\model\\student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{80FB903E-5ED5-4A66-90FA-97F59C257729}|Exception.Task4\\Exception.Task4.csproj|d:\\razdel c\\desktop\\exception\\exception.task4\\model\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{80FB903E-5ED5-4A66-90FA-97F59C257729}|Exception.Task4\\Exception.Task4.csproj|solutionrelative:exception.task4\\model\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -27,11 +31,24 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "Student.cs",
+              "DocumentMoniker": "D:\\razdel c\\Desktop\\Exception\\Exception.Task4\\Model\\Student.cs",
+              "RelativeDocumentMoniker": "Exception.Task4\\Model\\Student.cs",
+              "ToolTip": "D:\\razdel c\\Desktop\\Exception\\Exception.Task4\\Model\\Student.cs*",
+              "RelativeToolTip": "Exception.Task4\\Model\\Student.cs*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-10T06:45:51.468Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "User.cs",
               "DocumentMoniker": "D:\\razdel c\\Desktop\\Exception\\Exception.Task4\\Model\\User.cs",
               "RelativeDocumentMoniker": "Exception.Task4\\Model\\User.cs",
-              "ToolTip": "D:\\razdel c\\Desktop\\Exception\\Exception.Task4\\Model\\User.cs*",
-              "RelativeToolTip": "Exception.Task4\\Model\\User.cs*",
+              "ToolTip": "D:\\razdel c\\Desktop\\Exception\\Exception.Task4\\Model\\User.cs",
+              "RelativeToolTip": "Exception.Task4\\Model\\User.cs",
               "ViewState": "AgIAABIAAAAAAAAAAAAowAoAAAAgAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-11-09T13:26:41.947Z",
@@ -39,7 +56,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "IAccount.cs",
               "DocumentMoniker": "D:\\razdel c\\Desktop\\Exception\\Exception.Task4\\Interfaces\\IAccount.cs",
               "RelativeDocumentMoniker": "Exception.Task4\\Interfaces\\IAccount.cs",
@@ -47,12 +64,11 @@
               "RelativeToolTip": "Exception.Task4\\Interfaces\\IAccount.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAfAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-09T13:24:14.838Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-09T13:24:14.838Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "Program.cs",
               "DocumentMoniker": "D:\\razdel c\\Desktop\\Exception\\Exception.Task4\\Program.cs",
               "RelativeDocumentMoniker": "Exception.Task4\\Program.cs",
@@ -60,8 +76,7 @@
               "RelativeToolTip": "Exception.Task4\\Program.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-09T13:09:00.643Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-09T13:09:00.643Z"
             }
           ]
         },

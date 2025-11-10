@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Exception.Task4")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+de2a0e197928c320cb657b99f0054b558cb8643e")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+a22003946d124e05866bdac8daa79722b4cabf59")]
 [assembly: System.Reflection.AssemblyProductAttribute("Exception.Task4")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Exception.Task4")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
