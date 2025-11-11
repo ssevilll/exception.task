@@ -52,8 +52,27 @@
                 throw new System.Exception("Student not found");
             }
         }
+        public void GetAllSutdents()
+        {
+            foreach (var student in _students)
+            {
+                student.StudentInfo();
+            }
+        }
 
-        
+        public Group(string groupno, int studentlimit)
+        {
+            if (CheckGroupNo(groupno))
+            {
+                GroupNo = groupno;
+            }
+            else
+            {
+                throw new System.Exception("Invalid group number format");
+            }
+            StudentLimit = studentlimit;
+
+        }
     }
 }
 
