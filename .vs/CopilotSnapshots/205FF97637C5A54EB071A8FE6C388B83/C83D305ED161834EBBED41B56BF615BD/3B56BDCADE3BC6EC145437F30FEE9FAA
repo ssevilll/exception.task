@@ -1,0 +1,16 @@
+﻿using Exception.Task4.Model;
+
+namespace Exception.Task4
+{
+    internal class Program
+    {
+        static void Main(string[] args)
+        {
+            Student student1 = new Student("John Doe", 85.5m);
+            Console.WriteLine("How many students do you want to add to the group?");
+            int studentCount = Convert.ToInt32(Console.ReadLine());
+
+
+        }
+    }
+}

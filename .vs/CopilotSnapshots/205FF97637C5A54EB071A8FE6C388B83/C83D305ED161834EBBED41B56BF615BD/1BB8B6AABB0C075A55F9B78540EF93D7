@@ -61,7 +61,7 @@
         {
             if (_students.Length == 0)
             {
-                throw new System.Exception("No students in this group");
+                Console.WriteLine("No students in this group.");
                 return;
             }
             foreach (var student in _students)

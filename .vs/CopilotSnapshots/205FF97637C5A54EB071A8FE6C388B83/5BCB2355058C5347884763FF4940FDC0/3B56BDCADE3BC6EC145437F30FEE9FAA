@@ -1,0 +1,86 @@
+﻿using Exception.Task4.Model;
+
+namespace Exception.Task4
+{
+    internal class Program
+    {
+        static void Main(string[] args)
+        {
+            try
+            {
+                Console.WriteLine("Enter user email:");
+                string email = Console.ReadLine();
+                Console.WriteLine("Enter user password:");
+                string password = Console.ReadLine();
+                User user1 = new User(email, password);
+                Console.WriteLine("Enter user full name:");
+                user1.FullName = Console.ReadLine();
+
+                Console.WriteLine("_______MENU_______");
+                Console.WriteLine("1. Show info\n2. Create new group\nChoose an option (1-2):");
+                int command = Convert.ToInt32(Console.ReadLine());
+
+                bool running = true;
+                while (running)
+                {
+                    switch (command)
+                    {
+                        case 1:
+                            user1.ShowInfo();
+                            break;
+                        case 2:
+                            Console.WriteLine("Enter group number:");
+                            string groupNo = Console.ReadLine();
+                            Console.WriteLine("Enter student limit:");
+                            int studentLimit = Convert.ToInt32(Console.ReadLine());
+                            Group group1 = new Group(groupNo, studentLimit);
+                            Console.WriteLine("Group created successfully.");
+                            running = false;
+                            break;
+                        default:
+                            throw new System.Exception("Invalid command");
+                    }
+                }
+            }
+            catch (System.Exception ex)
+            {
+                Console.WriteLine($"Error: {ex.Message}");
+            }
+
+            Console.WriteLine("______MENU_______");
+            Console.WriteLine("1. Show all students\n2. Get student by ID\n3. Add student\n0. Quit\nChoose an option (1-3):");
+            int command2 = Convert.ToInt32(Console.ReadLine());
+            bool running2 = true;
+            while (running2)
+            {
+                switch (command2)
+                {
+                    case 1:
+                        // group1.GetAllStudents();
+                        break;
+                    case 2:
+                        Console.WriteLine("Enter student ID:");
+                        int id = Convert.ToInt32(Console.ReadLine());
+                        // group1.GetStudents(id);
+                        break;
+                    case 3:
+                        Console.WriteLine("Enter student email:");
+                        string studentEmail = Console.ReadLine();
+                        Console.WriteLine("Enter student password:");
+                        string studentPassword = Console.ReadLine();
+                        Student student1 = new Student(studentEmail, studentPassword);
+                        Console.WriteLine("Enter student full name:");
+                        student1.FullName = Console.ReadLine();
+                        // group1.AddStudent(student1);
+                        Console.WriteLine("Student added successfully.");
+                        break;
+                    case 0:
+                        running2 = false;
+                        break;
+                    default:
+                        throw new System.Exception("Invalid command");
+                }
+            }
+        }
+    }
+}

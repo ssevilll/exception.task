@@ -17,10 +17,10 @@ namespace Exception.Task4
                 user1.FullName = Console.ReadLine();
 
                 Console.WriteLine("_______MENU_______");
-                Console.WriteLine("1. Show info\n2. Create new group\nChoose an option (1-2):\n");
+                Console.WriteLine("1. Show info\n2. Create new group\nChoose an option (1-2):");
                 int command = Convert.ToInt32(Console.ReadLine());
 
-                Group group1 = null; 
+                Group group1 = null; // Declare group1 outside the switch
                 bool running = true;
                 while (running)
                 {
@@ -29,7 +29,7 @@ namespace Exception.Task4
                         case 1:
                             user1.ShowInfo();
                             Console.WriteLine("\n_______MENU_______");
-                            Console.WriteLine("1. Show info\n2. Create new group\nChoose an option (1-2):\n");
+                            Console.WriteLine("1. Show info\n2. Create new group\nChoose an option (1-2):");
                             command = Convert.ToInt32(Console.ReadLine());
                             break;
                         case 2:
@@ -46,11 +46,11 @@ namespace Exception.Task4
                     }
                 }
 
-
+                // Only show the second menu if a group was created
                 if (group1 != null)
                 {
                     Console.WriteLine("______MENU_______");
-                    Console.WriteLine("1. Show all students\n2. Get student by ID\n3. Add student\n0. Quit\nChoose an option (0-3):\n");
+                    Console.WriteLine("1. Show all students\n2. Get student by ID\n3. Add student\n0. Quit\nChoose an option (0-3):");
                     int command2 = Convert.ToInt32(Console.ReadLine());
                     bool running2 = true;
                     while (running2)
@@ -60,7 +60,7 @@ namespace Exception.Task4
                             case 1:
                                 group1.GetAllStudents();
                                 Console.WriteLine("\n______MENU_______");
-                                Console.WriteLine("1. Show all students\n2. Get student by ID\n3. Add student\n0. Quit\nChoose an option (0-3):\n");
+                                Console.WriteLine("1. Show all students\n2. Get student by ID\n3. Add student\n0. Quit\nChoose an option (0-3):");
                                 command2 = Convert.ToInt32(Console.ReadLine());
                                 break;
                             case 2:
@@ -68,7 +68,7 @@ namespace Exception.Task4
                                 int id = Convert.ToInt32(Console.ReadLine());
                                 group1.GetStudents(id);
                                 Console.WriteLine("\n______MENU_______");
-                                Console.WriteLine("1. Show all students\n2. Get student by ID\n3. Add student\n0. Quit\nChoose an option (0-3):\n");
+                                Console.WriteLine("1. Show all students\n2. Get student by ID\n3. Add student\n0. Quit\nChoose an option (0-3):");
                                 command2 = Convert.ToInt32(Console.ReadLine());
                                 break;
                             case 3:
@@ -80,7 +80,7 @@ namespace Exception.Task4
                                 group1.AddStudent(student1);
                                 Console.WriteLine("Student added successfully.");
                                 Console.WriteLine("\n______MENU_______");
-                                Console.WriteLine("1. Show all students\n2. Get student by ID\n3. Add student\n0. Quit\nChoose an option (0-3):\n");
+                                Console.WriteLine("1. Show all students\n2. Get student by ID\n3. Add student\n0. Quit\nChoose an option (0-3):");
                                 command2 = Convert.ToInt32(Console.ReadLine());
                                 break;
                             case 0:
@@ -90,7 +90,7 @@ namespace Exception.Task4
                             default:
                                 Console.WriteLine("Invalid command. Please try again.");
                                 Console.WriteLine("\n______MENU_______");
-                                Console.WriteLine("1. Show all students\n2. Get student by ID\n3. Add student\n0. Quit\nChoose an option (0-3):\n");
+                                Console.WriteLine("1. Show all students\n2. Get student by ID\n3. Add student\n0. Quit\nChoose an option (0-3):");
                                 command2 = Convert.ToInt32(Console.ReadLine());
                                 break;
                         }

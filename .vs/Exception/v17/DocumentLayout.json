@@ -3,12 +3,16 @@
   "WorkspaceRootPath": "D:\\razdel c\\Desktop\\Exception\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{80FB903E-5ED5-4A66-90FA-97F59C257729}|Exception.Task4\\Exception.Task4.csproj|d:\\razdel c\\desktop\\exception\\exception.task4\\model\\group.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{80FB903E-5ED5-4A66-90FA-97F59C257729}|Exception.Task4\\Exception.Task4.csproj|solutionrelative:exception.task4\\model\\group.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{80FB903E-5ED5-4A66-90FA-97F59C257729}|Exception.Task4\\Exception.Task4.csproj|d:\\razdel c\\desktop\\exception\\exception.task4\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{80FB903E-5ED5-4A66-90FA-97F59C257729}|Exception.Task4\\Exception.Task4.csproj|solutionrelative:exception.task4\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{80FB903E-5ED5-4A66-90FA-97F59C257729}|Exception.Task4\\Exception.Task4.csproj|d:\\razdel c\\desktop\\exception\\exception.task4\\model\\student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{80FB903E-5ED5-4A66-90FA-97F59C257729}|Exception.Task4\\Exception.Task4.csproj|solutionrelative:exception.task4\\model\\student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{80FB903E-5ED5-4A66-90FA-97F59C257729}|Exception.Task4\\Exception.Task4.csproj|d:\\razdel c\\desktop\\exception\\exception.task4\\model\\group.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{80FB903E-5ED5-4A66-90FA-97F59C257729}|Exception.Task4\\Exception.Task4.csproj|solutionrelative:exception.task4\\model\\group.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{80FB903E-5ED5-4A66-90FA-97F59C257729}|Exception.Task4\\Exception.Task4.csproj|d:\\razdel c\\desktop\\exception\\exception.task4\\model\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -17,10 +21,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{80FB903E-5ED5-4A66-90FA-97F59C257729}|Exception.Task4\\Exception.Task4.csproj|d:\\razdel c\\desktop\\exception\\exception.task4\\interfaces\\iaccount.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{80FB903E-5ED5-4A66-90FA-97F59C257729}|Exception.Task4\\Exception.Task4.csproj|solutionrelative:exception.task4\\interfaces\\iaccount.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{80FB903E-5ED5-4A66-90FA-97F59C257729}|Exception.Task4\\Exception.Task4.csproj|d:\\razdel c\\desktop\\exception\\exception.task4\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{80FB903E-5ED5-4A66-90FA-97F59C257729}|Exception.Task4\\Exception.Task4.csproj|solutionrelative:exception.task4\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -30,17 +30,17 @@
       "DocumentGroups": [
         {
           "DockedWidth": 116,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": "Group.cs",
               "DocumentMoniker": "D:\\razdel c\\Desktop\\Exception\\Exception.Task4\\Model\\Group.cs",
               "RelativeDocumentMoniker": "Exception.Task4\\Model\\Group.cs",
               "ToolTip": "D:\\razdel c\\Desktop\\Exception\\Exception.Task4\\Model\\Group.cs",
               "RelativeToolTip": "Exception.Task4\\Model\\Group.cs",
-              "ViewState": "AgIAABcAAAAAAAAAAAAgwCgAAAAuAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAFQAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-11-11T08:17:22.76Z",
               "EditorCaption": ""
@@ -53,25 +53,27 @@
               "RelativeDocumentMoniker": "Exception.Task4\\Model\\Student.cs",
               "ToolTip": "D:\\razdel c\\Desktop\\Exception\\Exception.Task4\\Model\\Student.cs",
               "RelativeToolTip": "Exception.Task4\\Model\\Student.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAaAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAdAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-10T06:45:51.468Z"
+              "WhenOpened": "2025-11-10T06:45:51.468Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "User.cs",
               "DocumentMoniker": "D:\\razdel c\\Desktop\\Exception\\Exception.Task4\\Model\\User.cs",
               "RelativeDocumentMoniker": "Exception.Task4\\Model\\User.cs",
               "ToolTip": "D:\\razdel c\\Desktop\\Exception\\Exception.Task4\\Model\\User.cs",
               "RelativeToolTip": "Exception.Task4\\Model\\User.cs",
-              "ViewState": "AgIAABIAAAAAAAAAAAAowAoAAAAgAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAgAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-09T13:26:41.947Z"
+              "WhenOpened": "2025-11-09T13:26:41.947Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "IAccount.cs",
               "DocumentMoniker": "D:\\razdel c\\Desktop\\Exception\\Exception.Task4\\Interfaces\\IAccount.cs",
               "RelativeDocumentMoniker": "Exception.Task4\\Interfaces\\IAccount.cs",
@@ -83,15 +85,16 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 0,
               "Title": "Program.cs",
               "DocumentMoniker": "D:\\razdel c\\Desktop\\Exception\\Exception.Task4\\Program.cs",
               "RelativeDocumentMoniker": "Exception.Task4\\Program.cs",
               "ToolTip": "D:\\razdel c\\Desktop\\Exception\\Exception.Task4\\Program.cs",
               "RelativeToolTip": "Exception.Task4\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAEEAAAAAAAAAAAAQwFsAAABJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-09T13:09:00.643Z"
+              "WhenOpened": "2025-11-09T13:09:00.643Z",
+              "EditorCaption": ""
             }
           ]
         },

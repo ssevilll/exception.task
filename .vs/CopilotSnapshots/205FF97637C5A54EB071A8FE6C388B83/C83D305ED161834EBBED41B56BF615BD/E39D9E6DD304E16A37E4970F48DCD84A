@@ -1,0 +1,148 @@
+﻿using Exception.Task4.Model;
+
+namespace Exception.Task4
+{
+    internal class Program
+    {
+        static void Main(string[] args)
+        {
+            try
+            {
+                // 1) Create a user by getting all values from console
+                User user = CreateUser();
+
+                // 2) Show menu for user operations
+                bool continueUserMenu = true;
+                while (continueUserMenu)
+                {
+                    Console.WriteLine("\n--- User Menu ---");
+                    Console.WriteLine("1. Show info");
+                    Console.WriteLine("2. Create new group");
+                    Console.Write("Choose an option: ");
+                    
+                    string userChoice = Console.ReadLine();
+                    
+                    switch (userChoice)
+                    {
+                        case "1":
+                            user.ShowInfo();
+                            break;
+                        case "2":
+                            Group group = CreateGroup();
+                            continueUserMenu = false;
+                            
+                            // 3) Show group management menu
+                            ShowGroupMenu(group);
+                            break;
+                        default:
+                            Console.WriteLine("Invalid option. Please try again.");
+                            break;
+                    }
+                }
+            }
+            catch (System.Exception ex)
+            {
+                Console.WriteLine($"Error: {ex.Message}");
+            }
+        }
+
+        static User CreateUser()
+        {
+            Console.WriteLine("=== Creating User ===");
+            
+            Console.Write("Enter full name: ");
+            string fullName = Console.ReadLine();
+            
+            Console.Write("Enter email: ");
+            string email = Console.ReadLine();
+            
+            Console.Write("Enter password (min 8 chars, must contain upper, lower and digit): ");
+            string password = Console.ReadLine();
+            
+            User user = new User(email, password);
+            user.FullName = fullName;
+            
+            Console.WriteLine("User created successfully!");
+            return user;
+        }
+
+        static Group CreateGroup()
+        {
+            Console.WriteLine("=== Creating Group ===");
+            
+            Console.Write("Enter group number (format: AA123): ");
+            string groupNo = Console.ReadLine();
+            
+            Console.Write("Enter student limit (5-18): ");
+            int studentLimit = Convert.ToInt32(Console.ReadLine());
+            
+            Group group = new Group(groupNo, studentLimit);
+            Console.WriteLine("Group created successfully!");
+            return group;
+        }
+
+        static void ShowGroupMenu(Group group)
+        {
+            bool continueGroupMenu = true;
+            
+            while (continueGroupMenu)
+            {
+                Console.WriteLine("\n--- Group Management Menu ---");
+                Console.WriteLine("1. Show all students");
+                Console.WriteLine("2. Get student by id");
+                Console.WriteLine("3. Add student");
+                Console.WriteLine("0. Quit");
+                Console.Write("Choose an option: ");
+                
+                string choice = Console.ReadLine();
+                
+                try
+                {
+                    switch (choice)
+                    {
+                        case "1":
+                            Console.WriteLine("\n--- All Students ---");
+                            group.GetAllStudents();
+                            break;
+                        case "2":
+                            Console.Write("Enter student ID: ");
+                            int studentId = Convert.ToInt32(Console.ReadLine());
+                            Console.WriteLine("\n--- Student Information ---");
+                            group.GetStudents(studentId);
+                            break;
+                        case "3":
+                            Student newStudent = CreateStudent();
+                            group.AddStudent(newStudent);
+                            Console.WriteLine("Student added successfully!");
+                            break;
+                        case "0":
+                            Console.WriteLine("Program terminated.");
+                            continueGroupMenu = false;
+                            break;
+                        default:
+                            Console.WriteLine("Invalid option. Please try again.");
+                            break;
+                    }
+                }
+                catch (System.Exception ex)
+                {
+                    Console.WriteLine($"Error: {ex.Message}");
+                }
+            }
+        }
+
+        static Student CreateStudent()
+        {
+            Console.WriteLine("\n=== Adding New Student ===");
+            
+            Console.Write("Enter student full name: ");
+            string fullName = Console.ReadLine();
+            
+            Console.Write("Enter student point (decimal): ");
+            decimal point = Convert.ToDecimal(Console.ReadLine());
+            
+            Student student = new Student(fullName, point);
+            return student;
+        }
+    }
+}
